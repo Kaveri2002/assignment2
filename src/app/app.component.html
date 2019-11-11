@@ -1,0 +1,32 @@
+<h1>
+  Google Places Autocomplete
+</h1>
+<div>
+  <h2> Address:</h2>
+  <p>
+    <AutocompleteComponent (setAddress)="getEstablishmentAddress($event)" adressType="establishment"></AutocompleteComponent>
+  </p>
+  <b>Address:</b> {{formattedEstablishmentAddress}}
+  <br>
+  <br>
+  <b>Street Address:</b> {{street}}
+  <br>
+  <br>
+  <b>City:</b> {{city}}
+  <br>
+  <br>
+  <b>State:</b> {{state}}
+    <br>
+    <br>
+  <b>Country:</b> {{country}}
+  <br>
+  <br>
+  <b>Pincode:</b> {{postal_code}}
+  <br>
+  <br>
+  <b>Latitude:</b> {{latitude}}
+  <br>
+  <br>
+  <b>Longitude:</b> {{longitude}}
+
+</div>
